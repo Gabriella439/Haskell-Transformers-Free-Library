@@ -1,5 +1,5 @@
 {-|
-    Free monads build syntax trees.  See the Examples section for details.
+    Free monads build syntax trees.  See the example sections for details.
 
     A free monad over a functor resembles a list of that functor:
 
@@ -27,11 +27,11 @@ module Control.Monad.Trans.Free (
     wrap,
     liftF
 
-    -- * Free Monad Example
+    -- * Free monad example
     -- $freeexample
 
-    -- * Free Monad Transformer Example
-    -- $ freetexample
+    -- * Free monad transformer example
+    -- $freetexample
     ) where
 
 import Control.Applicative
