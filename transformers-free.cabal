@@ -19,6 +19,7 @@ Source-Repository head
     Location: https://github.com/Gabriel439/Haskell-Transformers-Free-Library
 
 Library
-    Build-Depends: base >= 2, transformers >= 0.2
+    Build-Depends: base >= 2 && < 6, transformers >= 0.2
     Exposed-Modules: Control.Monad.Trans.Free
     GHC-Options: -O2
+    Default-Language: Haskell98
